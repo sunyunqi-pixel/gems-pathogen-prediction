@@ -1,0 +1,92 @@
+{
+  "shigella_random": {
+    "mean_fold_weights": {
+      "catboost": 0.338,
+      "xgboost": 0.289,
+      "lightgbm": 0.373,
+      "logreg": 0.0
+    },
+    "fold_weights_var": 0.0650018757520918
+  },
+  "shigella_country": {
+    "mean_fold_weights": {
+      "catboost": 0.227,
+      "xgboost": 0.739,
+      "lightgbm": 0.035,
+      "logreg": 0.0
+    },
+    "fold_weights_var": 0.0885580956147874
+  },
+  "st_etec_random": {
+    "mean_fold_weights": {
+      "catboost": 0.258,
+      "xgboost": 0.639,
+      "lightgbm": 0.104,
+      "logreg": 0.0
+    },
+    "fold_weights_var": 0.048682506733121286
+  },
+  "st_etec_country": {
+    "mean_fold_weights": {
+      "catboost": 0.633,
+      "xgboost": 0.174,
+      "lightgbm": 0.192,
+      "logreg": 0.0
+    },
+    "fold_weights_var": 0.33234026046733206
+  },
+  "rotavirus_random": {
+    "mean_fold_weights": {
+      "catboost": 0.499,
+      "xgboost": 0.086,
+      "lightgbm": 0.413,
+      "logreg": 0.003
+    },
+    "fold_weights_var": 0.05934281926810058
+  },
+  "rotavirus_country": {
+    "mean_fold_weights": {
+      "catboost": 0.297,
+      "xgboost": 0.629,
+      "lightgbm": 0.074,
+      "logreg": 0.0
+    },
+    "fold_weights_var": 0.234358674285223
+  },
+  "cryptosporidium_random": {
+    "mean_fold_weights": {
+      "catboost": 0.511,
+      "xgboost": 0.386,
+      "lightgbm": 0.081,
+      "logreg": 0.022
+    },
+    "fold_weights_var": 0.1267175577968448
+  },
+  "cryptosporidium_country": {
+    "mean_fold_weights": {
+      "catboost": 0.491,
+      "xgboost": 0.485,
+      "lightgbm": 0.0,
+      "logreg": 0.024
+    },
+    "fold_weights_var": 0.19723551896150313
+  },
+  "norovirus_random": {
+    "mean_fold_weights": {
+      "catboost": 0.557,
+      "xgboost": 0.0,
+      "lightgbm": 0.44,
+      "logreg": 0.003
+    },
+    "fold_weights_var": 0.07599013922521762
+  },
+  "norovirus_country": {
+    "mean_fold_weights": {
+      "catboost": 0.271,
+      "xgboost": 0.425,
+      "lightgbm": 0.304,
+      "logreg": 0.0
+    },
+    "fold_weights_var": 0.09647742407749657
+  }
+}

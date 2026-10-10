@@ -1,0 +1,38 @@
+[OK] shigella random: as-pub 0.8145 -> foldwise 0.8140 (delta -0.0005)
+[WARN] missing ensemble_results_cvcompare/shigella_site_site_cleanplus_oof.csv
+[OK] shigella country: as-pub 0.7893 -> foldwise 0.7865 (delta -0.0028)
+[OK] st_etec random: as-pub 0.8505 -> foldwise 0.8505 (delta -0.0001)
+[WARN] missing ensemble_results_cvcompare/st_etec_site_site_cleanplus_oof.csv
+[OK] st_etec country: as-pub 0.7364 -> foldwise 0.7182 (delta -0.0182)
+[OK] rotavirus random: as-pub 0.7702 -> foldwise 0.7694 (delta -0.0009)
+[WARN] missing ensemble_results_cvcompare/rotavirus_site_site_cleanplus_oof.csv
+[OK] rotavirus country: as-pub 0.6873 -> foldwise 0.6659 (delta -0.0214)
+[OK] cryptosporidium random: as-pub 0.7337 -> foldwise 0.7325 (delta -0.0012)
+[WARN] missing ensemble_results_cvcompare/cryptosporidium_site_site_cleanplus_oof.csv
+[OK] cryptosporidium country: as-pub 0.6810 -> foldwise 0.6691 (delta -0.0118)
+[OK] norovirus random: as-pub 0.6427 -> foldwise 0.6395 (delta -0.0031)
+[WARN] missing ensemble_results_cvcompare/norovirus_site_site_cleanplus_oof.csv
+[OK] norovirus country: as-pub 0.6271 -> foldwise 0.6250 (delta -0.0021)
+
+===== CORRECTED WEIGHTED ENSEMBLE vs AS-PUBLISHED =====
+       pathogen cv_mode     n  prevalence  as_published_weighted_auc  foldwise_weighted_auc  delta_auc  simple_avg_auc  stacking_auc  foldwise_ap  foldwise_brier     auc_ci_indiv auc_ci_site_cluster
+       shigella  random 26385      0.1027                     0.8145                 0.8140    -0.0005          0.8100        0.8115       0.2910          0.0824 [0.8069, 0.8213]    [0.7934, 0.8266]
+       shigella country 26385      0.1027                     0.7893                 0.7865    -0.0028          0.7772        0.7831       0.2509          0.1905 [0.7787, 0.7941]    [0.7657, 0.8043]
+        st_etec  random 26385      0.3201                     0.8505                 0.8505    -0.0001          0.8459        0.8503       0.7501          0.1419 [0.8457, 0.8552]    [0.8227, 0.8753]
+        st_etec country 26385      0.3201                     0.7364                 0.7182    -0.0182          0.7248        0.7156       0.5718          0.1915 [0.7115, 0.7249]    [0.6874, 0.7455]
+      rotavirus  random  6111      0.1507                     0.7702                 0.7694    -0.0009          0.7644        0.7680       0.4155          0.1111 [0.7521, 0.7857]    [0.7374, 0.7895]
+      rotavirus country  6111      0.1507                     0.6873                 0.6659    -0.0214          0.6733        0.6605       0.2447          0.1313 [0.6477, 0.6849]    [0.6183, 0.7088]
+cryptosporidium  random  6106      0.1851                     0.7337                 0.7325    -0.0012          0.7320        0.7325       0.3867          0.1517 [0.7171, 0.7481]    [0.6628, 0.7853]
+cryptosporidium country  6106      0.1851                     0.6810                 0.6691    -0.0118          0.6696        0.6682       0.3133          0.1828 [0.6516, 0.6858]    [0.6149, 0.7137]
+      norovirus  random  6111      0.1699                     0.6427                 0.6395    -0.0031          0.6369        0.6371       0.2572          0.1413 [0.6213, 0.6577]    [0.6051, 0.6652]
+      norovirus country  6111      0.1699                     0.6271                 0.6250    -0.0021          0.6163        0.6225       0.2414          0.1481 [0.6061, 0.6428]    [0.6014, 0.6414]
+
+===== DELTAS (site-cluster paired CI) =====
+       pathogen           comparison  as_published_delta delta_ci_site_cluster
+       shigella random_minus_country              0.0252       [0.012, 0.0338]
+        st_etec random_minus_country              0.1141      [0.0727, 0.1573]
+      rotavirus random_minus_country              0.0829      [0.0542, 0.1096]
+cryptosporidium random_minus_country              0.0528      [0.0251, 0.0709]
+      norovirus random_minus_country              0.0155     [-0.0018, 0.0305]
+
+Saved: recomputed_ensemble_cleanplus.csv / recomputed_deltas_cleanplus.csv / recomputed_fold_weights_cleanplus.json

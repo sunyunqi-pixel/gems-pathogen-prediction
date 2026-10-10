@@ -1,0 +1,6 @@
+pathogen,pathogen_label,n,positive_n,n_features,top_feature_raw,top_feature_label,top_feature_family,top_feature_mean_abs_shap
+shigella,Shigella,26385,2709,272,age_months,age_months,demographic_child,0.6544404534273898
+st_etec,ST-ETEC,26385,8446,272,site,site,geography,0.4257126135939987
+rotavirus,Rotavirus,6111,921,269,age_months,age_months,demographic_child,0.5343536135516337
+cryptosporidium,Cryptosporidium,6106,1130,269,age_months,age_months,demographic_child,0.4434891175580365
+norovirus,Norovirus,6111,1038,269,age_months,age_months,demographic_child,0.41280348132907374

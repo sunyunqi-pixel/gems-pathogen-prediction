@@ -1,0 +1,6 @@
+pathogen,main_label_column,n_total_rows,n_missing_main_label,n_missing_case_control,n_missing_climate_core,n_excluded_any_reason,n_included_analytic,pct_missing_main_label,pct_missing_case_control,pct_missing_climate_core,pct_excluded_any_reason,pct_included_analytic
+rotavirus,label_rotavirus_positive_any,36809,25484,0,0,25484,11325,69.2331,0.0,0.0,69.2331,30.7669
+shigella,label_shigella_positive_any,36809,0,0,0,0,36809,0.0,0.0,0.0,0.0,100.0
+cryptosporidium,label_cryptosporidium_positive_any,36809,25475,0,0,25475,11334,69.2086,0.0,0.0,69.2086,30.7914
+st_etec,label_st_etec_positive_any,36809,0,0,0,0,36809,0.0,0.0,0.0,0.0,100.0
+norovirus,label_norovirus_positive_any,36809,25480,0,0,25480,11329,69.2222,0.0,0.0,69.2222,30.7778

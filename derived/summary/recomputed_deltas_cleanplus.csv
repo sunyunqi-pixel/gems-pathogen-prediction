@@ -1,0 +1,6 @@
+pathogen,comparison,foldwise_delta,delta_ci_site_cluster
+shigella,random_minus_country,0.0275,"[np.float64(0.0139), np.float64(0.0362)]"
+st_etec,random_minus_country,0.1323,"[np.float64(0.0873), np.float64(0.174)]"
+rotavirus,random_minus_country,0.1034,"[np.float64(0.0631), np.float64(0.1462)]"
+cryptosporidium,random_minus_country,0.0633,"[np.float64(0.0305), np.float64(0.0852)]"
+norovirus,random_minus_country,0.0145,"[np.float64(-0.0042), np.float64(0.0304)]"

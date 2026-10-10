@@ -1,0 +1,137 @@
+{
+  "shigella_random": {
+    "mean_fold_weights": {
+      "catboost": 0.412,
+      "xgboost": 0.286,
+      "lightgbm": 0.302,
+      "logreg": 0.0
+    },
+    "fold_weights_var": 0.03847943399883777
+  },
+  "shigella_site": {
+    "mean_fold_weights": {
+      "catboost": 0.247,
+      "xgboost": 0.656,
+      "lightgbm": 0.097,
+      "logreg": 0.0
+    },
+    "fold_weights_var": 0.1969287915484734
+  },
+  "shigella_country": {
+    "mean_fold_weights": {
+      "catboost": 0.04,
+      "xgboost": 0.886,
+      "lightgbm": 0.073,
+      "logreg": 0.0
+    },
+    "fold_weights_var": 0.08333920452608139
+  },
+  "st_etec_random": {
+    "mean_fold_weights": {
+      "catboost": 0.258,
+      "xgboost": 0.571,
+      "lightgbm": 0.171,
+      "logreg": 0.0
+    },
+    "fold_weights_var": 0.06608544284404316
+  },
+  "st_etec_site": {
+    "mean_fold_weights": {
+      "catboost": 0.357,
+      "xgboost": 0.581,
+      "lightgbm": 0.062,
+      "logreg": 0.0
+    },
+    "fold_weights_var": 0.10495640905078814
+  },
+  "st_etec_country": {
+    "mean_fold_weights": {
+      "catboost": 0.651,
+      "xgboost": 0.114,
+      "lightgbm": 0.235,
+      "logreg": 0.0
+    },
+    "fold_weights_var": 0.14471928027835265
+  },
+  "rotavirus_random": {
+    "mean_fold_weights": {
+      "catboost": 0.249,
+      "xgboost": 0.0,
+      "lightgbm": 0.75,
+      "logreg": 0.001
+    },
+    "fold_weights_var": 0.04569118106652913
+  },
+  "rotavirus_site": {
+    "mean_fold_weights": {
+      "catboost": 0.558,
+      "xgboost": 0.218,
+      "lightgbm": 0.223,
+      "logreg": 0.0
+    },
+    "fold_weights_var": 0.09642932596113851
+  },
+  "rotavirus_country": {
+    "mean_fold_weights": {
+      "catboost": 0.112,
+      "xgboost": 0.252,
+      "lightgbm": 0.634,
+      "logreg": 0.002
+    },
+    "fold_weights_var": 0.2755097475996765
+  },
+  "cryptosporidium_random": {
+    "mean_fold_weights": {
+      "catboost": 0.246,
+      "xgboost": 0.404,
+      "lightgbm": 0.35,
+      "logreg": 0.0
+    },
+    "fold_weights_var": 0.05121919187672899
+  },
+  "cryptosporidium_site": {
+    "mean_fold_weights": {
+      "catboost": 0.512,
+      "xgboost": 0.201,
+      "lightgbm": 0.227,
+      "logreg": 0.06
+    },
+    "fold_weights_var": 0.10603098622244532
+  },
+  "cryptosporidium_country": {
+    "mean_fold_weights": {
+      "catboost": 0.41,
+      "xgboost": 0.473,
+      "lightgbm": 0.112,
+      "logreg": 0.006
+    },
+    "fold_weights_var": 0.10362709937223288
+  },
+  "norovirus_random": {
+    "mean_fold_weights": {
+      "catboost": 0.511,
+      "xgboost": 0.245,
+      "lightgbm": 0.244,
+      "logreg": 0.0
+    },
+    "fold_weights_var": 0.05492052551450428
+  },
+  "norovirus_site": {
+    "mean_fold_weights": {
+      "catboost": 0.469,
+      "xgboost": 0.462,
+      "lightgbm": 0.069,
+      "logreg": 0.0
+    },
+    "fold_weights_var": 0.07800005262710302
+  },
+  "norovirus_country": {
+    "mean_fold_weights": {
+      "catboost": 0.425,
+      "xgboost": 0.156,
+      "lightgbm": 0.413,
+      "logreg": 0.006
+    },
+    "fold_weights_var": 0.0695773050812493
+  }
+}

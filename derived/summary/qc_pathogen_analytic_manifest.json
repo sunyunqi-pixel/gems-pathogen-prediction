@@ -1,0 +1,48 @@
+{
+  "n_rows_input_master": 36809,
+  "detected_key_columns": {
+    "row_id": "row_id",
+    "child_id": "child_id",
+    "episode_id": "episode_id",
+    "household_id": "household_id",
+    "case_control": "case_control",
+    "event_date": "event_date",
+    "site": "site",
+    "site_7": "country",
+    "country": "country",
+    "age_months": "age_months",
+    "sex": "sex"
+  },
+  "detected_pathogen_label_columns": {
+    "rotavirus": "label_rotavirus_positive_any",
+    "shigella": "label_shigella_positive_any",
+    "cryptosporidium": "label_cryptosporidium_positive_any",
+    "st_etec": "label_st_etec_positive_any",
+    "norovirus": "label_norovirus_positive_any"
+  },
+  "selected_climate_core_columns": {
+    "precip_core": "precip_mm_sum_lag0_7",
+    "tmean_core": "tmean_c_mean_lag0_7",
+    "dewpoint_core": "dewpoint_c_mean_lag0_7",
+    "rh_core": "relative_humidity_pct_mean_lag0_7"
+  },
+  "climate_core_selection_info": {
+    "n_selected_climate_core_columns": 4,
+    "n_rows_non_missing_all_selected": 36809
+  },
+  "pathogens": [
+    "rotavirus",
+    "shigella",
+    "cryptosporidium",
+    "st_etec",
+    "norovirus"
+  ],
+  "input_master_path": "/Users/aikeyan/Desktop/Paper/Project_Root/gems_paper2_ml_rebuild/03_features/final_tables/ml_master_wide.parquet",
+  "outputs": {
+    "ml_master_wide_with_analytic_sets": "/Users/aikeyan/Desktop/Paper/Project_Root/gems_paper2_ml_rebuild/03_features/final_tables/ml_master_wide_with_analytic_sets.parquet",
+    "pathogen_analytic_sets_wide": "/Users/aikeyan/Desktop/Paper/Project_Root/gems_paper2_ml_rebuild/03_features/final_tables/pathogen_analytic_sets_wide.parquet",
+    "qc_pathogen_analytic_set_summary": "/Users/aikeyan/Desktop/Paper/Project_Root/gems_paper2_ml_rebuild/02_intermediate/qc/qc_pathogen_analytic_set_summary.csv",
+    "qc_pathogen_analytic_missing_reasons": "/Users/aikeyan/Desktop/Paper/Project_Root/gems_paper2_ml_rebuild/02_intermediate/qc/qc_pathogen_analytic_missing_reasons.csv",
+    "qc_pathogen_analytic_case_control_balance": "/Users/aikeyan/Desktop/Paper/Project_Root/gems_paper2_ml_rebuild/02_intermediate/qc/qc_pathogen_analytic_case_control_balance.csv"
+  }
+}

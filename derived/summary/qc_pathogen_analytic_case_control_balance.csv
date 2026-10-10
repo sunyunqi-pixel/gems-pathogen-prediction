@@ -1,0 +1,51 @@
+pathogen,subset,n_rows,n_positive_outcome,n_negative_outcome,positivity_rate_pct
+rotavirus,analytic_all,11325,1814,9511,16.0177
+rotavirus,analytic_cases,5694,1318,4376,23.1472
+rotavirus,analytic_controls,5631,496,5135,8.8084
+rotavirus,analytic_site_7::Bangladesh,1789,432,1357,24.1476
+rotavirus,analytic_site_7::India,1758,340,1418,19.3402
+rotavirus,analytic_site_7::Kenya,1795,175,1620,9.7493
+rotavirus,analytic_site_7::Mali,1768,239,1529,13.5181
+rotavirus,analytic_site_7::Mozambique,1029,222,807,21.5743
+rotavirus,analytic_site_7::Pakistan,1654,176,1478,10.6409
+rotavirus,analytic_site_7::The Gambia,1532,230,1302,15.0131
+shigella,analytic_all,36809,4511,32298,12.2552
+shigella,analytic_cases,15283,3013,12270,19.7147
+shigella,analytic_controls,21526,1498,20028,6.959
+shigella,analytic_site_7::Bangladesh,6238,1057,5181,16.9445
+shigella,analytic_site_7::India,5868,612,5256,10.4294
+shigella,analytic_site_7::Kenya,4226,520,3706,12.3048
+shigella,analytic_site_7::Mali,6850,614,6236,8.9635
+shigella,analytic_site_7::Mozambique,3356,369,2987,10.9952
+shigella,analytic_site_7::Pakistan,5364,731,4633,13.6279
+shigella,analytic_site_7::The Gambia,4907,608,4299,12.3905
+cryptosporidium,analytic_all,11334,2221,9113,19.5959
+cryptosporidium,analytic_cases,5688,1229,4459,21.6069
+cryptosporidium,analytic_controls,5646,992,4654,17.57
+cryptosporidium,analytic_site_7::Bangladesh,1794,81,1713,4.5151
+cryptosporidium,analytic_site_7::India,1770,278,1492,15.7062
+cryptosporidium,analytic_site_7::Kenya,1816,344,1472,18.9427
+cryptosporidium,analytic_site_7::Mali,1771,525,1246,29.6443
+cryptosporidium,analytic_site_7::Mozambique,1038,327,711,31.5029
+cryptosporidium,analytic_site_7::Pakistan,1639,385,1254,23.4899
+cryptosporidium,analytic_site_7::The Gambia,1506,281,1225,18.6587
+st_etec,analytic_all,36809,11981,24828,32.5491
+st_etec,analytic_cases,15283,9301,5982,60.8585
+st_etec,analytic_controls,21526,2680,18846,12.4501
+st_etec,analytic_site_7::Bangladesh,6238,2306,3932,36.967
+st_etec,analytic_site_7::India,5868,3308,2560,56.3736
+st_etec,analytic_site_7::Kenya,4226,1515,2711,35.8495
+st_etec,analytic_site_7::Mali,6850,2035,4815,29.708
+st_etec,analytic_site_7::Mozambique,3356,731,2625,21.7819
+st_etec,analytic_site_7::Pakistan,5364,827,4537,15.4176
+st_etec,analytic_site_7::The Gambia,4907,1259,3648,25.6572
+norovirus,analytic_all,11329,1954,9375,17.2478
+norovirus,analytic_cases,5691,934,4757,16.4119
+norovirus,analytic_controls,5638,1020,4618,18.0915
+norovirus,analytic_site_7::Bangladesh,1790,243,1547,13.5754
+norovirus,analytic_site_7::India,1760,316,1444,17.9545
+norovirus,analytic_site_7::Kenya,1799,250,1549,13.8966
+norovirus,analytic_site_7::Mali,1766,351,1415,19.8754
+norovirus,analytic_site_7::Mozambique,1028,151,877,14.6887
+norovirus,analytic_site_7::Pakistan,1654,393,1261,23.7606
+norovirus,analytic_site_7::The Gambia,1532,250,1282,16.3185

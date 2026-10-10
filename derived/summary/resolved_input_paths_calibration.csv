@@ -1,0 +1,6 @@
+pathogen,type,path
+shigella,oof_csv,/Users/aikeyan/Desktop/Project-GEMS-IDP/Shigella_Optimization/ensemble_results_cvcompare/shigella_site_site_clean_oof.csv
+st_etec,oof_csv,/Users/aikeyan/Desktop/Project-GEMS-IDP/Shigella_Optimization/ensemble_results_cvcompare/st_etec_site_site_clean_oof.csv
+rotavirus,oof_csv,/Users/aikeyan/Desktop/Project-GEMS-IDP/Shigella_Optimization/ensemble_results_cvcompare/rotavirus_site_site_clean_oof.csv
+cryptosporidium,oof_csv,/Users/aikeyan/Desktop/Project-GEMS-IDP/Shigella_Optimization/ensemble_results_cvcompare/cryptosporidium_site_site_clean_oof.csv
+norovirus,oof_csv,/Users/aikeyan/Desktop/Project-GEMS-IDP/Shigella_Optimization/ensemble_results_cvcompare/norovirus_site_site_clean_oof.csv

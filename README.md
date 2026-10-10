@@ -1,5 +1,3 @@
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
-
 # Pathogen-specific prediction of childhood diarrhoeal aetiology from climate and contextual exposures
 
 Analysis code and derived results for a pathogen-specific prediction study using the

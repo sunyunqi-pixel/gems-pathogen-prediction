@@ -4,11 +4,10 @@ title: "Pathogen-specific prediction of childhood diarrhoeal aetiology from clim
 abstract: "Analysis code and derived results for a pathogen-specific prediction study using the Global Enteric Multicenter Study (GEMS) and GEMS1A."
 type: software
 authors:
-  - family-names: "<SURNAME>"
-    given-names: "<GIVEN NAME>"
-    orcid: "https://orcid.org/0000-0000-0000-0000"
+  - family-names: "QI"
+    given-names: "SUNYUN"
 version: "v1.0.0"
-date-released: "2026-01-01"
+date-released: "2026-10-10"
 license: MIT
 repository-code: "https://github.com/sunyunqi-pixel/gems-pathogen-prediction"
 keywords:
